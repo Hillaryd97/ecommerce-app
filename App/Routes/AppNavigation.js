@@ -24,7 +24,7 @@ const AppNavigation = () => {
           name="Cart"
           component={Cart}
           options={{
-            headerTitle: `Cart (₦{getCartItemsCount()})`, // Dynamically set the header title
+            headerTitle: `Cart (${getCartItemsCount()})`,
           }}
         />
         <Stack.Screen name="Checkout" component={Checkout} />

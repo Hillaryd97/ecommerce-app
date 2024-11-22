@@ -176,7 +176,7 @@ const Checkout = ({ navigation }) => {
           style={styles.placeOrderButton}
           onPress={handleCheckout}
         >
-          <Text style={styles.placeOrderButtonText}>Place Order</Text>
+          <Text style={styles.placeOrderButtonText}>Proceed to Checkout</Text>
         </TouchableOpacity>
       </ScrollView>
       <CheckoutModal
